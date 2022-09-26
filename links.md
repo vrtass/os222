@@ -5,9 +5,9 @@ permalink: LINKS/
 <br><br>
 [HOME]({{ site.baseurl }}/) ---
 [LINKS]({{ site.baseurl }}/LINKS/) ---
-[TIPS]({{ site.baseurl }}/TIPS/) ---
 [LOG]({{ site.baseurl }}{{ site.myloglink }}) ---
-[GITHUB]({{ site.githublink }})
+[GitHub]({{ site.githublink }}) ---
+[GitHub Page](https://vrtass.github.io/os222/)
 <br>
 <hr>
 
