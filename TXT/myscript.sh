@@ -49,7 +49,7 @@ if [ $DEFAULT ] ; then
     close(cmd)
     print mydate + (86400 * 6)
   }'))
-  DATE=$(date -d $(date +%d-%b-%Y) +%s)
+  DATE=$( LANG=en_us_8859_1;date -d $(date +%d-%b-%Y) +%s)
   for II in ${!intARR[@]} ; do
     (( $DATE > ${intARR[$II]} )) || break;
   done
